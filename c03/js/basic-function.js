@@ -1,11 +1,13 @@
-// Create a variable called msg to hold a new message
-var msg = 'Sign up to receive our newsletter for 10% off!';
+var msg = 'Hello Guys, JavaScript e sensacional !';
 
-// Create a function to update the content of the element whose id attribute has a value of message
 function updateMessage() {
-  var el = document.getElementById('message');
-  el.textContent = msg;
+
+    /*
+        Bloco de instruções da função updateMessage
+     */
+    var el = document.getElementById('message');
+    el.textContent = msg;
 }
 
-// Call the function
+//chamada da função
 updateMessage();
